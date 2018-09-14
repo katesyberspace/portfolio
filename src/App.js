@@ -9,23 +9,23 @@ class App extends Component {
     return (
       <div style={{height: '100vh', position: 'relative'}}>
           <Layout>
-              <Header className="header-color" title="Kate Sy | Web Developer" scroll>
-                  <Navigation>
-                    <Link to="/resume">Resume</Link>
+              <Header transparent title="My Folio" scroll>
+                  <Navigation className="nav">
+                    <Link to="/">Home</Link>
                     <Link to="/about">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
-              <Drawer title="Title">
+              <Drawer className="drawer" title="My Folio">
                   <Navigation>
-                    <Link to="/resume">Resume</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/about">About Me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                   </Navigation>
               </Drawer>
-              <Content>
+              <Content scroll="true">
                 <div className="page-content" />
                 <Main />
               </Content>

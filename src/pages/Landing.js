@@ -44,9 +44,6 @@ class Landing extends React.Component {
                   <i className="fa fa-instagram" ></i>      
                 </a>
 
-
-
-
               </div>
             </div>
           </Cell>

@@ -1,4 +1,42 @@
+.mdl-tabs__tab-bar {
+  border-bottom: none;
+}
+
 .projects-grid {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
+.card-elem {
+  min-width: 450;
+  margin: auto;
+  margin-bottom: 6%;
+
+}
+
+.tictactoe {
+  background-image:url('https://i.imgur.com/WVkTAuJ.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 176px;
+  color: white;
+}
+
+@media only screen  and (min-width : 900px) {
+
+  .projects-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+
+  .card-elem {
+    margin: 0;
+  }
+
+
+}
+    
+
