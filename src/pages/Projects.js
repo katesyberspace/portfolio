@@ -177,7 +177,7 @@ class Projects extends React.Component {
 
   render(){
     return (
-      <div className="category-tabs">
+      <div className="category-tabs page">
         <Tabs className="tabs" activeTab={this.state.activeTab} onChange={tabId => this.setState({activeTab: tabId})} ripple style={{borderColor: 'transparent'}}>
           <Tab style={{color: 'whitesmoke'}}>Web Development</Tab>
           <Tab>Drone Photography</Tab>

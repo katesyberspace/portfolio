@@ -7,7 +7,7 @@ class About extends React.Component {
 
   render(){
     return (
-      <div>
+      <div class="page">
         <InstagramEmbed
           url='https://www.instagram.com/p/BmFrVS0n6Sv/'
           maxWidth={320}
